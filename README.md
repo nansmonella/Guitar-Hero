@@ -1,2 +1,5 @@
 # Guitar-Hero
-An embedded systems project of implementing a Guitar Hero video game on a PIC18F8722 microprocessor.
+
+Guitar Hero is a well-known series of music rhythm video games used with a guitar-shaped controller. The main purpose of the game is to match the notes that scroll on-screen to coloured circles by pressing the buttons in the controller when the notes is on the coloured circles. In context of the game scenario we are expecting you to implement a basic version of this game.
+
+In the game scenario, notes will be created continuously and will slide from left to right. The player should match the sliding notes when they are in the matching circles by pressing the appropriate button on the development board. The game consists of three levels that all of them have a different difficulty level. The player starts with 9 health points. In every missing or wrong notes the player will lose one health point. The current level and remaining health points will be displayed on seven segment display screen. When the player has no health point, then the game is over. Timer0 Interrupts is used to create notes continuously and the on-board buttons are used to match the notes. Also, as a screen, the on-board LEDs connected with ports are used.
